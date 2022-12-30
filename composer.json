@@ -1,0 +1,22 @@
+{
+    "name": "mengqiang/unlimitedclassified",
+    "autoload": {
+        "psr-4": {
+            "Mengqiang\\Unlimitedclassified\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mengqiang",
+            "email": "meng_qiang_vip@qq.com"
+        }
+    ],
+   "extra": {
+     "laravel": {
+       "providers": [
+         "MengQiang\\UnlimitedClassified\\UnlimitedClassifiedServiceProvider"
+       ]
+     }
+    },
+    "require": {}
+}
